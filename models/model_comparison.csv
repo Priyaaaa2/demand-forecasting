@@ -1,0 +1,7 @@
+Model,RMSE,MAPE (%)
+Moving Avg (7d),9.837,14.87
+Naive Baseline,9.894,15.85
+Seasonal Naive,10.151,13.51
+Prophet,10.151,13.51
+LSTM,10.151,13.51
+"SARIMA(1,1,1)x(1,1,1,7)",10.425,16.72

@@ -1,0 +1,11 @@
+product_id,product_name,avg_daily_demand,std_daily_demand,lead_days,safety_stock,reorder_point,eoq,service_level_pct,annual_holding_cost,annual_ordering_cost,total_inv_cost_gbp,stockout_cost_gbp
+p01,Wireless Headphones,13.94,6.59,7,29,127,245,95.0,1283.39,1039.66,2323.05,0.0
+p02,Running Shoes,20.96,9.35,5,35,140,373,95.0,1214.63,1025.55,2240.18,0.0
+p03,Coffee Maker,9.27,4.81,10,26,118,271,95.0,741.05,625.41,1366.46,0.0
+p04,Yoga Mat,25.57,11.25,4,37,140,684,95.0,757.17,683.18,1440.35,0.0
+p05,Protein Powder,40.71,17.02,3,49,171,704,95.0,1201.2,1055.7,2256.9,0.0
+p06,Bluetooth Speaker,11.47,5.63,7,25,105,283,95.0,870.01,741.3,1611.31,0.0
+p07,Moisturiser SPF50,32.68,13.95,5,52,215,932,95.0,710.9,640.35,1351.25,0.0
+p08,Resistance Bands Set,23.27,10.44,4,35,128,753,95.0,615.86,564.37,1180.24,0.0
+p09,Slim-Fit Jeans,17.49,8.16,8,38,178,428,95.0,880.44,747.49,1627.92,0.0
+p10,Instant Pot,6.96,3.79,10,20,90,191,95.0,804.8,666.71,1471.51,0.0

@@ -1,0 +1,11 @@
+product_id,name,base_demand,price,cost,lead_days,category
+p01,Wireless Headphones,12,89.99,34.0,7,Electronics
+p02,Running Shoes,18,65.0,22.0,5,Footwear
+p03,Coffee Maker,8,49.99,18.5,10,Kitchen
+p04,Yoga Mat,22,28.99,8.0,4,Sports
+p05,Protein Powder,35,34.99,12.0,3,Nutrition
+p06,Bluetooth Speaker,10,59.99,21.0,7,Electronics
+p07,Moisturiser SPF50,28,18.99,5.5,5,Beauty
+p08,Resistance Bands Set,20,22.99,6.0,4,Sports
+p09,Slim-Fit Jeans,15,44.99,14.0,8,Clothing
+p10,Instant Pot,6,79.99,28.0,10,Kitchen
