@@ -129,13 +129,13 @@ def stockout_impact_report() -> dict:
 
 
 if __name__ == "__main__":
-    print("📦  Inventory Optimisation Report\n")
+    print("  Inventory Optimisation Report\n")
     recs = generate_recommendations()
     print(recs[["product_name","safety_stock","reorder_point","eoq","total_inv_cost_gbp"]].to_string())
 
     impact = stockout_impact_report()
-    print(f"\n📉  Stockout rate before: {impact['stockout_rate_before']}%")
-    print(f"📉  Stockout rate after:  {impact['stockout_rate_after']}%")
-    print(f"💰  Projected savings:   £{impact['projected_savings_gbp']:,.2f}/year")
+    print(f"\n  Stockout rate before: {impact['stockout_rate_before']}%")
+    print(f"  Stockout rate after:  {impact['stockout_rate_after']}%")
+    print(f"  Projected savings:   £{impact['projected_savings_gbp']:,.2f}/year")
 
     recs.to_csv(Path(__file__).parent / "inventory_recommendations.csv", index=False)

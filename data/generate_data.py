@@ -81,7 +81,7 @@ def generate_sales() -> pd.DataFrame:
                 })
 
     df = pd.DataFrame(rows)
-    print(f"  ✅  Sales rows: {len(df):,}")
+    print(f"    Sales rows: {len(df):,}")
     return df
 
 
@@ -137,13 +137,13 @@ def save(sales, inventory):
     inventory.to_sql("inventory",  conn, if_exists="replace", index=False)
     products_df.to_sql("products", conn, if_exists="replace", index=False)
     conn.close()
-    print(f"  ✅  DB saved: {DB}")
+    print(f"    DB saved: {DB}")
 
 
 if __name__ == "__main__":
-    print("🚀 Generating retail sales dataset …")
+    print(" Generating retail sales dataset …")
     sales = generate_sales()
-    print("📦 Simulating inventory …")
+    print(" Simulating inventory …")
     inventory = generate_inventory(sales)
     save(sales, inventory)
-    print(f"\n📊  Stockout rate: {inventory['is_stockout'].mean()*100:.1f}%")
+    print(f"\n  Stockout rate: {inventory['is_stockout'].mean()*100:.1f}%")

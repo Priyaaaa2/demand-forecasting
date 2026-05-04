@@ -1,4 +1,4 @@
-# 🔮 Demand Forecasting + Inventory Optimisation System
+#  Demand Forecasting + Inventory Optimisation System
 
 > **Production-grade ML system: time series forecasting pipeline → inventory decisions → FastAPI deployment → Docker containerisation.**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 What This Project Demonstrates
+##  What This Project Demonstrates
 
 | Skill | Implementation |
 |-------|---------------|
@@ -21,7 +21,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Retail Sales DB (SQLite)
@@ -52,12 +52,12 @@ Retail Sales DB (SQLite)
 └──────────────────────────────────┘
                  │
                  ▼
-         🐳 Docker Container
+          Docker Container
 ```
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project2-demand-forecasting/
@@ -78,7 +78,7 @@ project2-demand-forecasting/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # 1. Install dependencies
@@ -107,7 +107,7 @@ docker run -p 8000:8000 demand-forecasting
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | Table | Rows | Description |
 |-------|------|-------------|
@@ -116,14 +116,14 @@ docker run -p 8000:8000 demand-forecasting
 | `products` | 10 | Price, cost, lead time, category |
 
 **Synthetic features:**
-- 📈 Seasonal Christmas peak (+40% in Dec/Jan)
-- 📅 Weekend uplift (+35%)
-- 📊 Upward trend (+0.02%/day)
-- 🏷️ Promotional days (10% of days, +40% demand)
+-  Seasonal Christmas peak (+40% in Dec/Jan)
+-  Weekend uplift (+35%)
+-  Upward trend (+0.02%/day)
+-  Promotional days (10% of days, +40% demand)
 
 ---
 
-## 🤖 Model Comparison
+##  Model Comparison
 
 | Model | RMSE | MAPE |
 |-------|------|------|
@@ -136,7 +136,7 @@ docker run -p 8000:8000 demand-forecasting
 
 ---
 
-## 📦 Inventory Recommendations (Sample)
+##  Inventory Recommendations (Sample)
 
 | Product | Safety Stock | Reorder Point | EOQ | Annual Cost |
 |---------|-------------|---------------|-----|-------------|
@@ -146,7 +146,7 @@ docker run -p 8000:8000 demand-forecasting
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ```bash
 # Forecast 30 days of demand
@@ -165,6 +165,6 @@ curl http://localhost:8000/stockout_impact
 
 ---
 
-## 💼 Business Impact (Resume Bullet)
+##  Business Impact (Resume Bullet)
 
 > *"Built and deployed demand forecasting system (SARIMA + Moving Average) with FastAPI + Docker. Implemented inventory optimisation using EOQ and safety stock models, projecting 18–30% stockout reduction and measurable holding cost savings across 10 product lines."*

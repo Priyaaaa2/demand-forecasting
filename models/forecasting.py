@@ -141,7 +141,7 @@ def lstm_forecast(train: pd.Series, n: int, lookback: int = 14) -> np.ndarray:
 
 # ── Compare All Models ────────────────────────────────────────────────────────
 def run_comparison():
-    print(f"\n🔮  Forecasting {PRODUCT_ID} @ {STORE_ID} — {FORECAST_DAYS}-day horizon\n")
+    print(f"\n  Forecasting {PRODUCT_ID} @ {STORE_ID} — {FORECAST_DAYS}-day horizon\n")
     series = load_series(PRODUCT_ID, STORE_ID)
     train, test = train_test_split(series, FORECAST_DAYS)
 
@@ -165,7 +165,7 @@ def run_comparison():
     results_df.to_csv(OUT_DIR / "model_comparison.csv", index=False)
 
     best = results_df.iloc[0]["Model"]
-    print(f"\n  🏆  Best model: {best}")
+    print(f"\n    Best model: {best}")
     print(f"     RMSE = {results_df.iloc[0]['RMSE']}")
     print(f"     MAPE = {results_df.iloc[0]['MAPE (%)']:.2f}%")
 
