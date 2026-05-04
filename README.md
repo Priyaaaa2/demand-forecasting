@@ -1,4 +1,4 @@
-# 🔮 Project 2: Demand Forecasting + Inventory Optimisation System
+# 🔮 Demand Forecasting + Inventory Optimisation System
 
 > **Production-grade ML system: time series forecasting pipeline → inventory decisions → FastAPI deployment → Docker containerisation.**
 
